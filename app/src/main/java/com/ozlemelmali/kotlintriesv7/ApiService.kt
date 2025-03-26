@@ -1,5 +1,6 @@
 package com.ozlemelmali.kotlintriesv7
 
+import com.ozlemelmali.kotlintriesv7.Data.ColumnResponse
 import com.ozlemelmali.kotlintriesv7.Data.LoginResponse
 import com.ozlemelmali.kotlintriesv7.Data.TableDataResponse
 import com.ozlemelmali.kotlintriesv7.Data.UserLogin
@@ -35,5 +36,8 @@ interface ApiService {
     @POST("login") // login authentication
     @Headers("Content-Type: application/json")
     fun login(@Body request: UserLogin): Call<LoginResponse>
+
+    @GET("/get_columns/{table_name}")
+    fun getTableColumns(@Path("table_name") tableName: String): Call<ColumnResponse>
 }
 
