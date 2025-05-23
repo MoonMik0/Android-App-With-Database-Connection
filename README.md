@@ -15,13 +15,18 @@ All data interactions are handled via RetrofitClient through secure API endpoint
 -	MySQL as the relational database
 
 ## 🔐 Features
+
 -	🔑 User Authentication: Secure login with credential verification via API.
 -	📋 Dynamic Table Selection: Users are shown a list of table names retrieved from the database.
 -	🔎 Date-Based Record Viewing: Upon selecting a table, users can view detailed content sorted or filtered by date.
 -	🔄 Real-Time API Integration: All data is fetched live from a FastAPI backend with optimized performance.
+  <img src="https://github.com/user-attachments/assets/5bd7ccd1-9b7a-4923-857a-10fb66f5328b" width=200 alt="login">
+  <img src="https://github.com/user-attachments/assets/6eea0257-8777-49c3-91b0-3478f5e9ecb7" width=200 alt="tablechoose">
+  <img src="https://github.com/user-attachments/assets/fc91167f-0d19-4130-9a33-3dce2be2129c" width=200 alt="tabledetail">
+
 
 ## 🚀 How to Run the App
-1.	Clone the repository:
+1.	Clone the repository
 2.	Open in Android Studio
 3.	Ensure the FastAPI server is running:
 
