@@ -78,7 +78,7 @@ class TableDataActivity : AppCompatActivity() {
 
                     if (columns.isNotEmpty()) {
                         fetchTableData(columns)
-                        setupTableHeader(columns)  // 📌 Burada başlıkları oluşturuyoruz.
+                        setupTableHeader(columns)
                     } else {
                         Log.e("TABLE_ERROR", "API sütunları boş döndü!")
                         Toast.makeText(this@TableDataActivity, "Sütun bilgileri boş!", Toast.LENGTH_SHORT).show()
@@ -143,5 +143,6 @@ class TableDataActivity : AppCompatActivity() {
     }
 
 }
+
 
 

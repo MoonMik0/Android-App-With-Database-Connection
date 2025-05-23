@@ -1,4 +1,4 @@
-# 📅 Android Date-Driven Data Viewer App
+ 📅 Android Date-Driven Data Viewer App
 ## 📱 Project Description
 This is an Android application developed in Kotlin that connects to a FastAPI backend with a MySQL database to allow authenticated users to view and analyze date-based records from various database tables.
 The application supports:
